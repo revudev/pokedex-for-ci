@@ -2,6 +2,8 @@
 
 This repository is used for the CI/CD module of the Full stack open course
 
+Use node 16 to start this project
+
 Fork the repository to complete course exercises
 
 ## Commands
