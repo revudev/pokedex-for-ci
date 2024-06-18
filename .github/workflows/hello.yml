@@ -1,0 +1,14 @@
+name: Di hola
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hola:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: este es el mensaje
+        run: |
+          echo "Hola que tal"
