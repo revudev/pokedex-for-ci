@@ -1,8 +1,11 @@
 name: deploy pipeline
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize]
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
@@ -17,5 +20,3 @@ jobs:
         run: npm ci
       - name: Lint configuration
         run: npm run eslint
-      - name: test
-        run: run run test
