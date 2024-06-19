@@ -46,9 +46,9 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #eee;
-  margin: 10px;
-  height: 150px;
-  width: 150px;
+  margin: 15px;
+  height: 100px;
+  width: 100px;
   position: relative;
 }
 
@@ -56,7 +56,7 @@ footer {
   position: absolute;
   color: #000;
   bottom: 0;
-  width: 100%;
+  width: 80%;
   text-align: center;
   text-transform: capitalize;
   background-color: #eee;
@@ -82,7 +82,7 @@ footer {
 
 .pokemon-image {
   min-height: 150px;
-  width: 100%;
+  width: 90%;
   background-color: rgba(0, 0, 0, 0.7);
   background-position: center;
   background-repeat: no-repeat;
