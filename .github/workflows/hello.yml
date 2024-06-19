@@ -12,3 +12,8 @@ jobs:
       - name: este es el mensaje
         run: |
           echo "Hola que tal"
+
+      - name: Da la fecha
+        run: |
+          date
+      - run: ls -al
